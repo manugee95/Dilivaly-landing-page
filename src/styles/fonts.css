@@ -1,0 +1,8 @@
+/* Import Clash Display from Fontshare */
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600,700&display=swap');
+
+/* Import Satoshi from Fontshare */
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600&display=swap');
+
+/* Import JetBrains Mono from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
