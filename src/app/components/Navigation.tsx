@@ -36,7 +36,7 @@ export function Navigation() {
           <a href="/"><img
             src="/dilivaly-logo.png"
             alt="DILIVALY"
-            className="h-16 sm:h-20 w-auto"
+            className="h-16 sm:h-20 w-auto ml-[-15px] lg:ml-[0px]"
           /></a>
         </div>
 

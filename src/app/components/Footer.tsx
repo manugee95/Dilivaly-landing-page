@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <img
-                src="/src/imports/dilivaly-logo.png"
+                src="/dilivaly-logo.png"
                 alt="DILIVALY"
                 className="h-10"
               />
