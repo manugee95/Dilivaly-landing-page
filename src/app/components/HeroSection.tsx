@@ -59,7 +59,7 @@ export function HeroSection() {
                 </div>
                 <div className="w-2 h-2 bg-[#00C805] rounded-full animate-pulse ml-2"></div>
               </div> */}
-              <img src="/src/imports/screenshot-1.png" alt="SCREENSHOT" className="w-full h-auto object-contain rounded-2xl" />
+              <img src="/screenshot-1.png" alt="SCREENSHOT" className="w-full h-auto object-contain rounded-2xl" />
             </motion.div>
 
             {/* <motion.div

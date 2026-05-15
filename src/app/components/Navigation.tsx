@@ -34,7 +34,7 @@ export function Navigation() {
       <div className="max-w-[1280px] mx-auto px-3 sm:px-6 h-[80px] flex items-center justify-between">
         <div className="flex items-center">
           <a href="/"><img
-            src="/src/imports/dilivaly-logo.png"
+            src="/dilivaly-logo.png"
             alt="DILIVALY"
             className="h-16 sm:h-20 w-auto"
           /></a>
