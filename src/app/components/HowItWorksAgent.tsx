@@ -82,9 +82,11 @@ export function HowItWorksAgent() {
           <p className="text-white/50 italic mb-6 text-lg">
             Start earning today with fair pay and guaranteed payment protection.
           </p>
-          <button className="border-2 border-[#00C805] text-[#00C805] px-8 py-3 rounded-full font-semibold hover:bg-[#00C805]/10 transition-all">
+          <a href="/">
+            <button className="border-2 border-[#00C805] text-[#00C805] px-8 py-3 rounded-full font-semibold hover:bg-[#00C805]/10 transition-all cursor-pointer">
             Start Earning as an Agent →
           </button>
+          </a>
         </div>
       </div>
     </section>

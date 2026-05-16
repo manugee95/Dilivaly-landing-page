@@ -41,30 +41,34 @@ export function Navigation() {
         </div>
 
         <div className="hidden lg:flex items-center gap-8">
-          <button onClick={() => scrollToSection('how-it-works')} className="font-body text-white/75 hover:text-[#00C805] transition-colors">
+          <button onClick={() => scrollToSection('how-it-works')} className="font-body text-white/75 hover:text-[#00C805] transition-colors cursor-pointer">
             How It Works
           </button>
-          <button onClick={() => scrollToSection('vendors')} className="font-body text-white/75 hover:text-[#00C805] transition-colors">
+          <button onClick={() => scrollToSection('vendors')} className="font-body text-white/75 hover:text-[#00C805] transition-colors cursor-pointer">
             For Vendors
           </button>
-          <button onClick={() => scrollToSection('agents')} className="font-body text-white/75 hover:text-[#00C805] transition-colors">
+          <button onClick={() => scrollToSection('agents')} className="font-body text-white/75 hover:text-[#00C805] transition-colors cursor-pointer">
             For Agents
           </button>
-          <button onClick={() => scrollToSection('security')} className="font-body text-white/75 hover:text-[#00C805] transition-colors">
+          <button onClick={() => scrollToSection('security')} className="font-body text-white/75 hover:text-[#00C805] transition-colors cursor-pointer">
             Security
           </button>
-          <button onClick={() => scrollToSection('faq')} className="font-body text-white/75 hover:text-[#00C805] transition-colors">
+          <button onClick={() => scrollToSection('faq')} className="font-body text-white/75 hover:text-[#00C805] transition-colors cursor-pointer">
             FAQ
           </button>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <button className="font-body text-white/75 hover:text-white transition-colors px-4 py-2">
+          <a href="/">
+            <button className="font-body text-white/75 hover:text-white transition-colors px-4 py-2 cursor-pointer">
             Log In
           </button>
-          <button className="font-body bg-[#00C805] text-[#07120A] px-6 py-2 rounded-full font-semibold hover:bg-[#00d906] transition-colors">
+          </a>
+          <a href="/">
+            <button className="font-body bg-[#00C805] text-[#07120A] px-6 py-2 rounded-full font-semibold hover:bg-[#00d906] transition-colors cursor-pointer">
             Get Started
           </button>
+          </a>
         </div>
 
         <button

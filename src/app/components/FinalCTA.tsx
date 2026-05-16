@@ -31,7 +31,7 @@ export function FinalCTA() {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-8">
             <motion.button
-              className="font-body bg-[#00C805] text-[#07120A] px-10 py-5 rounded-full font-bold text-lg hover:bg-[#00d906] transition-all flex items-center justify-center gap-2 group"
+              className="font-body bg-[#00C805] text-[#07120A] px-10 py-5 rounded-full font-bold text-lg hover:bg-[#00d906] transition-all flex items-center justify-center gap-2 group cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -40,7 +40,7 @@ export function FinalCTA() {
             </motion.button>
 
             <motion.button
-              className="font-body border-2 border-[#00C805] text-[#00C805] px-10 py-5 rounded-full font-bold text-lg hover:bg-[#00C805]/10 transition-all flex items-center justify-center gap-2 group"
+              className="font-body border-2 border-[#00C805] text-[#00C805] px-10 py-5 rounded-full font-bold text-lg hover:bg-[#00C805]/10 transition-all flex items-center justify-center gap-2 group cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -48,21 +48,6 @@ export function FinalCTA() {
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
             </motion.button>
           </div>
-
-          {/* <div className="flex flex-wrap justify-center gap-6 font-body text-white/40 text-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#00C805] rounded-full"></div>
-              Free to join
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#00C805] rounded-full"></div>
-              No hidden fees
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#00C805] rounded-full"></div>
-              Secure escrow payments
-            </div>
-          </div> */}
         </motion.div>
       </div>
     </section>

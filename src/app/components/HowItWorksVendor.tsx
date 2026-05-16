@@ -82,9 +82,11 @@ export function HowItWorksVendor() {
           <p className="font-body text-white/40 italic mb-6 text-lg">
             And that's it. Your item arrives safely, and payment is only released when confirmed.
           </p>
-          <button className="font-body border-2 border-[#00C805] text-[#00C805] px-8 py-3 rounded-full font-semibold hover:bg-[#00C805]/10 transition-all">
+          <a href="/">
+          <button className="font-body border-2 border-[#00C805] text-[#00C805] px-8 py-3 rounded-full font-semibold hover:bg-[#00C805]/10 transition-all cursor-pointer">
             Post Your First Delivery →
           </button>
+          </a>
         </div>
       </div>
     </section>

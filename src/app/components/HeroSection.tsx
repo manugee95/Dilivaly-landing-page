@@ -27,12 +27,16 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-6">
-            <button className="font-body bg-[#00C805] text-[#07120A] px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#00d906] transition-all hover:scale-105">
+            <a href="/">
+              <button className="font-body bg-[#00C805] text-[#07120A] px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#00d906] transition-all hover:scale-105 cursor-pointer">
               Start Delivering
             </button>
-            <button className="font-body border-2 border-[#00C805] text-[#00C805] px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#00C805]/10 transition-all">
+            </a>
+            <a href="/">
+              <button className="font-body border-2 border-[#00C805] text-[#00C805] px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#00C805]/10 transition-all cursor-pointer">
               Become an Agent
             </button>
+            </a>
           </div>
 
           {/* <p className="font-body text-white/40 text-sm">Free to join. No subscription fees.</p> */}
