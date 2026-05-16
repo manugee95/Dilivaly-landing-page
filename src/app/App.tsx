@@ -15,7 +15,7 @@ export default function App() {
     <div className="min-h-screen bg-[#07120A]">
       <Navigation />
       <HeroSection />
-      <StatsBar />
+      {/* <StatsBar /> */}
       <div id="how-it-works">
         <HowItWorksVendor />
         <HowItWorksAgent />
