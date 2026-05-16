@@ -28,7 +28,7 @@ export function Footer() {
               <a href="#" className="w-10 h-10 rounded-full bg-[#00C805]/10 hover:bg-[#00C805]/20 flex items-center justify-center transition-colors">
                 <Instagram className="text-[#00C805]" size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[#00C805]/10 hover:bg-[#00C805]/20 flex items-center justify-center transition-colors">
+              <a href="https://www.linkedin.com/company/dilivaly" className="w-10 h-10 rounded-full bg-[#00C805]/10 hover:bg-[#00C805]/20 flex items-center justify-center transition-colors">
                 <Linkedin className="text-[#00C805]" size={18} />
               </a>
             </div>
