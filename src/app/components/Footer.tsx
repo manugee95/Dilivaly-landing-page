@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <img
-                src="/dilivaly-logo.png"
+                src="/logo-white.png"
                 alt="DILIVALY"
                 className="h-10"
               />
@@ -22,7 +22,7 @@ export function Footer() {
               <a href="#" className="w-10 h-10 rounded-full bg-[#00C805]/10 hover:bg-[#00C805]/20 flex items-center justify-center transition-colors">
                 <Twitter className="text-[#00C805]" size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-[#00C805]/10 hover:bg-[#00C805]/20 flex items-center justify-center transition-colors">
+              <a href="https://web.facebook.com/profile.php?id=61590064583428" className="w-10 h-10 rounded-full bg-[#00C805]/10 hover:bg-[#00C805]/20 flex items-center justify-center transition-colors">
                 <Facebook className="text-[#00C805]" size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-[#00C805]/10 hover:bg-[#00C805]/20 flex items-center justify-center transition-colors">

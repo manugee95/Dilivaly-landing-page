@@ -3,7 +3,7 @@ import { Package, CheckCircle, Wallet } from 'lucide-react';
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 md:px-10 lg:px-15 pt-24 lg:pt-15 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-6 md:px-10 lg:px-10 pt-24 lg:pt-15 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-radial from-[#00C805]/20 via-transparent to-transparent opacity-50"></div>
       <div className="absolute inset-0" style={{
         backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(0, 200, 5, 0.1) 1px, transparent 0)',
